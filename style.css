@@ -1,0 +1,68 @@
+.accordion{
+	height:400px;
+	justify-content:space-around;
+	align-items:center;
+	flex-direction:horizontal;
+	border:2px #ccc;
+	padding:10px;
+}
+.accordion-item{
+	font-family:arial;
+	font-size: 16px;
+	text-align:center;
+}
+.accordion-header{
+	font-family:arial;
+	font-size: 16px;
+	text-align:center;
+}
+.accordion-button-collapsed{
+	font-family:arial;
+	font-size: 16px;
+	text-align:center;
+}
+
+.accordion-collapse-collapse{
+font-family:arial;
+	font-size: 16px;
+	text-align:center;	
+}
+
+
+.accordion-body{
+	font-family:arial;
+	font-size: 16px;
+	text-align:center;
+	
+}
+body{
+	background-color:powderblue;
+}
+
+
+
+h1{
+
+	font-family:Times New Roman;
+	text-align:center;
+}
+
+
+h2{
+
+	font-family:arial;
+	text-align:center;
+}
+
+
+h3{
+	font-family:arial;
+	text-align:center;
+}
+
+ul{width: 250px; margin: 2 auto;}
+p{
+	font-family:arial;
+	text-align:left;
+	font-size: 16px;
+}
