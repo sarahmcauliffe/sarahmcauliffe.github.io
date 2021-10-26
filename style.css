@@ -1,4 +1,20 @@
-.accordion{
+/*Update your CV from the last week to be a FlexBox responsive design. 
+Design is mostly up to you but for full marks your design should:
+Have 3 columns at some point in the design 
+Use Justified Content justify-content: center;
+Use a media query to change some aspect of your design at smaller widths */
+
+
+
+
+.container-1{
+	display: flex;
+	
+}
+
+
+
+.container-1 div{
 	height:400px;
 	justify-content:space-around;
 	align-items:center;
@@ -6,35 +22,32 @@
 	border:2px #ccc;
 	padding:10px;
 }
-.accordion-item{
-	font-family:arial;
-	font-size: 16px;
-	text-align:center;
-}
-.accordion-header{
-	font-family:arial;
-	font-size: 16px;
-	text-align:center;
-}
-.accordion-button-collapsed{
-	font-family:arial;
-	font-size: 16px;
-	text-align:center;
-}
-
-.accordion-collapse-collapse{
-font-family:arial;
-	font-size: 16px;
-	text-align:center;	
-}
-
-
-.accordion-body{
-	font-family:arial;
-	font-size: 16px;
+.card{font-family:Times New Roman;
 	text-align:center;
 	
+	display:center;}
+
+.box-1{
+	flex:1;	
+	order:1;
 }
+
+.box-2{
+	flex:1;	
+	order:3;
+}
+
+.box-3{
+	flex:1;	
+	order:4;
+}
+
+.box-4{
+	flex:1;	
+	order:2;
+}
+
+
 body{
 	background-color:powderblue;
 }
@@ -65,4 +78,9 @@ p{
 	font-family:arial;
 	text-align:left;
 	font-size: 16px;
+}
+p1{
+	font-family:arial;
+	font-size: 16px;
+	text-align:center;
 }
